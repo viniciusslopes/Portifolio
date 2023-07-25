@@ -24,11 +24,11 @@
 
             <div class="nav__menu" id="nav__menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Project</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
 
@@ -40,9 +40,9 @@
     </header>
     <main class="firts-main">
         <!-- ==== HOME ==== -->
-        <section class="home bd-grid" id="home">
+        <section class="home bd-grid">
             <div class="home__data">
-                <h1 class="home__title">
+                <h1 class="home__title" id="home">
                     Oi,
                     <br>
                     I'am
@@ -55,13 +55,16 @@
 
             <div class="content__social">
                 <div class="home__social">
-                    <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-github'></i></a>
-                    <a href="#" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/vin%C3%ADcius-santos-developer/" target="_blank"
+                        class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/viniciusslopes" target="_blank" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/viinyst/" target="_blank" class="home__social-icon"><i
+                            class='bx bxl-instagram'></i></a>
                 </div>
 
                 <div class="home__img">
-                    <img src="assets/img/perfil-dark.png" alt="">
+                    <img src="assets/img/perfil-dark.png" alt="foto de perfil inicio">
                 </div>
             </div>
         </section>
@@ -74,15 +77,18 @@
 
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="/assets/img/perfil2-dark.png" alt="">
+                    <img src="/assets/img/perfil2-dark.png" alt="foto de perfil">
                 </div>
-                
-            <div class="about__info">
-                <h2 class="about__subtitle">Vinicius</h2>
-                <p class="about__text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit totam ad
-                    fugit a expedita consequatur aliquam ea! Perspiciatis temporibus deserunt saepe rem laborum odio cum
-                    voluptate iure perferendis. Eaque, officiis?</p>
-            </div>
+
+                <div class="about__info">
+                    <h2 class="about__subtitle">Vinícius</h2>
+                    <p class="about__text">
+                        Me chamo Paulo Vinícius atuei como Front-End Developer em alguns projetos, onde tive contato com
+                        desenvolvimento mobile e web, uma oportunidade que me agregou bastante experiência e
+                        conhecimento onde pude me desafiar e entender melhor o universo de um desenvolvedor de software
+                        júnior.
+                    </p>
+                </div>
             </div>
 
         </section>
@@ -92,14 +98,14 @@
 
             <div class="experience-details-container bd-grid">
                 <div class="skills-cotainer">
-                    <div class="details-container">
+                    <div class="details-container animation-container">
                         <h2 class="experience-sub-title">Frontend Developer</h2>
                         <div class="article-contianer">
                             <article>
                                 <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
                                 <div>
                                     <h3>HTML</h3>
-                                    <p>Experience</p>
+                                    <!-- <p>Experience</p> -->
                                 </div>
                             </article>
 
@@ -107,7 +113,7 @@
                                 <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
                                 <div>
                                     <h3>CSS</h3>
-                                    <p>Experience</p>
+                                    <!-- <p>Experience</p> -->
                                 </div>
                             </article>
 
@@ -115,7 +121,15 @@
                                 <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
                                 <div>
                                     <h3>JAVASCRIPT</h3>
-                                    <p>Experience</p>
+                                    <!-- <p>Experience</p> -->
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
+                                <div>
+                                    <h3>React Native</h3>
+                                    <!-- <p>Experience</p> -->
                                 </div>
                             </article>
 
@@ -123,15 +137,7 @@
                                 <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
                                 <div>
                                     <h3>REACT.JS</h3>
-                                    <p>Experience</p>
-                                </div>
-                            </article>
-
-                            <article>
-                                <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
-                                <div>
-                                    <h3>React-Native</h3>
-                                    <p>Experience</p>
+                                    <!-- <p>Experience</p> -->
                                 </div>
                             </article>
 
@@ -139,7 +145,7 @@
                                 <div class="skills__social-icon"><i class='bx bxs-badge-check'></i></div>
                                 <div>
                                     <h3>GIT</h3>
-                                    <p>Experience</p>
+                                    <!-- <p>Experience</p> -->
                                 </div>
                             </article>
                         </div>
@@ -155,49 +161,52 @@
             <div class="work__container bd-grid">
                 <div class="details-container color-container">
                     <div class="article-contianer">
-                        <img src="/assets/img/landingpage.png" class="project-img" alt="">
+                        <img src="/assets/img/landingpage.png" class="project-img" alt="landing page de basquete">
                     </div>
                     <h2 class="experience-sub-title project-title">landing page</h2>
                     <div class="btn-cotainer">
                         <button class="btn btn-color-2 project-btn">
-                            GitHub
+                            <a href="https://github.com/viniciusslopes/Landing-Page-BasketballLife" target="_blank">
+                                GitHub</a>
                         </button>
                         <button class="btn btn-color-2 project-btn">
-                            Live Demo
+                            <a href="https://viniciusslopes.github.io/Landing-Page-BasketballLife/" target="_blank">Live
+                                Demo</a>
                         </button>
                     </div>
                 </div>
 
                 <div class="details-container color-container">
                     <div class="article-contianer">
-                        <img src="/assets/img/passwordgenerator.png" class="project-img" alt="">
+                        <img src="/assets/img/passwordgenerator.png" class="project-img" alt="password generator">
                     </div>
                     <h2 class="experience-sub-title project-title">password generator</h2>
                     <div class="btn-cotainer">
                         <button class="btn btn-color-2 project-btn">
-                            GitHub
+                            <a href="https://github.com/viniciusslopes/project-password-generator" target="_blank">GitHub</a>
                         </button>
                         <button class="btn btn-color-2 project-btn">
-                            Live Demo
+                            <a href="https://viniciusslopes.github.io/project-password-generator/" target="_blank">Live Demo</a>
                         </button>
                     </div>
 
                 </div>
+            </div>
         </section>
     </main>
 
     <!-- ==== CONTACT ==== -->
     <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
-
+        <p class="animation-info">clique 👇</p>
         <div class="contact__container bd-grid">
             <div class="contact-info-cotainer">
-                <i class='bx bxs-envelope'></i>
+                <i class='bx bxs-envelope animation-icon'></i>
                 <p><a href="mailto:paulo.vinicius3422@gmail.com">paulo.vinicius3422@gmail.com</a></p>
             </div>
 
             <div class="contact-info-cotainer">
-                <i class='bx bxl-linkedin-square'></i>
+                <i class='bx bxl-linkedin-square animation-icon'></i>
                 <p><a href="https://www.linkedin.com/in/vin%C3%ADcius-santos-developer/" target="_blank">Linkedin</a>
                 </p>
             </div>
@@ -207,15 +216,18 @@
 
     <section class="footer">
         <p class="footer__title">Paulo Vinícius</p>
-        <nav>
-            <ul class="ul__links">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Project</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="nav__menu">
+            <nav>
+                <ul class="ul__links">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#work" class="nav__link">Project</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <p>&#169;2023 copyright all reserved</p>
     </section>
 
